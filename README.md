@@ -18,4 +18,10 @@ Some problems from interviews
 - count up the unique strings in a book. No stopwords or punctuation cleaning.
 
 ### Write a tail -f function in python
-- can you write a basic tail -f function in python
+- write a basic tail -f function in python
+
+### write a tictactoe game
+ - write a basic tic tac toe game to play against a computer
+
+
+
