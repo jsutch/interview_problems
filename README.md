@@ -20,7 +20,7 @@ Some problems from interviews
 ### Write a tail -f function in python
 - write a basic tail -f function in python
 
-### write a tictactoe game
+### Write a tictactoe game
  - write a basic tic tac toe game to play against a computer
 
 
