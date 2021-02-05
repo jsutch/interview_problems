@@ -23,5 +23,6 @@ Some problems from interviews
 ### Write a tictactoe game
  - write a basic tic tac toe game to play against a computer
 
-
+### Run Length Encoding
+- compress runs of letters in a message to minimize message space in a lossless way
 
