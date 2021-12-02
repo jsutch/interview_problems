@@ -26,3 +26,8 @@ Some problems from interviews
 ### Run Length Encoding
 - compress runs of letters in a message to minimize message space in a lossless way
 
+### Object Oriented - "lucky number per day" class
+- create a class that generates an object for a name which has functions to generate a random fp number between 1-100 for today's date, then print out Hello, {name}, your lucky number for {date} is {num}"
+
+### Simple pattern matcher
+- create a function to match a substring pattern from a list of strings
