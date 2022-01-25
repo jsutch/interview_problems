@@ -1,5 +1,6 @@
 # -*- coding: utf-8 -*-
 import os, random
+import pdb 
 
 def draw(board):
     """
@@ -85,7 +86,7 @@ def spacefree(board, move):
     if isinstance(move, int):
         return board[move] == ' '
     else:
-        return "Need a number between 1-9"
+        return "Space is taken. Need a number between 1-9"
 
 
 def randommove(board, moveslist):
@@ -131,33 +132,33 @@ def getplayermove(board):
     get the player's move - integer 1-9
     """
     intarr=[1,2,3,4,5,6,7,8,9]
-    move = input("What's your next move? 1-9, q: ")
-    if move.isdigit() and int(move) in intarr:
-        return int(move)
-    elif move == 'q':
-        print('Quitting')
-        os._exit(0)
-    else:
-        print('Need a number between 1-9')
-        getplayermove(board)
+    rawmove = input("What's your next move? 1-9, q: ")
+    if rawmove.isdigit() and int(rawmove) in intarr: 
+        move = int(rawmove)
+        if move and spacefree(mainboard, move):
+            return move
+        elif move == 'q':
+            print('Quitting')
+            os._exit(0)
+        else:
+            print('Need a digit for an unused space between 1-9 or q')
+            return getplayermove(mainboard)
 
-def playermove(board):
-    """
-    make the player's move
-    """
-    makemove(board, getplayermove(), playertoken)
+    else:
+        print('Need a digit for an unused space between 1-9 or q')
+        return getplayermove(mainboard)
+
 
 def makemove(board, move, token):
     """
     Helper to make moves
     """
     if inplay == False or isinstance(move, int) == False:
-        print('Something went wrong')
+        print('MainMove: Something went wrong. Move was:', move, type(move))
         os._exit(666)
     elif isinstance(move, int) and spacefree(board, move):
         board[move] = token
         return draw(board)
-    #return makemove(board, move, token)
     return draw(board)
 
 def otherguy():
