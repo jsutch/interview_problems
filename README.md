@@ -1,6 +1,11 @@
 ## Coding Interview Problems
 
-Some problems from interviews
+Some problems from interviews, mostly reproduced in a jupyter notebook. 
+Other problems and simple algorithms can be found here:
+
+```
+https://github.com/jsutch/Python-Algos
+```
 
 ### Rank dinosaurs by speed
 - given two files that have similar keys, but different data, process and return the data in a specific order
