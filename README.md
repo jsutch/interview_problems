@@ -5,8 +5,8 @@ Other problems and simple algorithms can be found here:
 
 ```
 https://github.com/jsutch/Python-Algos
-https://github.com/jsutch/Ruby-Algos/
-https://github.com/jsutch/php-algos/
+https://github.com/jsutch/Ruby-Algos
+https://github.com/jsutch/php-algos
 https://github.com/jsutch/Javascript-Algos
 https://github.com/jsutch/Powershell_Exercises
 ```
