@@ -1,10 +1,14 @@
 ## Coding Interview Problems
 
-Some problems from interviews, mostly reproduced in a jupyter notebook. 
+Some problems from interviews, mostly in Python, many  reproduced in a jupyter notebook. 
 Other problems and simple algorithms can be found here:
 
 ```
 https://github.com/jsutch/Python-Algos
+https://github.com/jsutch/Ruby-Algos/
+https://github.com/jsutch/php-algos/
+https://github.com/jsutch/Javascript-Algos
+https://github.com/jsutch/Powershell_Exercises
 ```
 
 ### Rank dinosaurs by speed
